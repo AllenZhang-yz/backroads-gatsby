@@ -28,7 +28,7 @@ const Navbar = () => {
         >
           {links.map((item, index) => (
             <li key={index}>
-              <AniLink swipe to={item.path}>
+              <AniLink fade to={item.path}>
                 {item.text}
               </AniLink>
             </li>
