@@ -19,6 +19,7 @@
     "gatsby": "^2.17.13",
     "gatsby-background-image": "^0.9.6",
     "gatsby-image": "^2.2.33",
+    "gatsby-plugin-playground": "^1.0.6",
     "gatsby-plugin-sass": "^2.1.22",
     "gatsby-plugin-sharp": "^2.3.0",
     "gatsby-plugin-styled-components": "^3.1.13",
