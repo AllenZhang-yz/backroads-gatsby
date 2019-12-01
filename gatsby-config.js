@@ -13,6 +13,7 @@ module.exports = {
     siteUrl: 'https://backroads-gatsby-byallen.netlify.com'
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -33,7 +34,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
-    `gatsby-plugin-playground`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-playground`
   ]
 };
