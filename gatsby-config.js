@@ -8,10 +8,9 @@ module.exports = {
     description:
       'Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure',
     author: '@allenzhang',
-    data: {
-      name: 'allen',
-      age: 30
-    }
+    twitterUsername: '@yzhang',
+    image: '/defaultBcg.jpeg',
+    siteUrl: 'https://backroads-gatsby-byallen.netlify.com'
   },
   plugins: [
     {
@@ -34,6 +33,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
-    `gatsby-plugin-playground`
+    `gatsby-plugin-playground`,
+    `gatsby-plugin-react-helmet`
   ]
 };
